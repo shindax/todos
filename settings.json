@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "editor.mouseWheelZoom": true,
+    "idf.gitPathWin": "C:\\Users\\shindax\\.espressif\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
+    "workbench.startupEditor": "none",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 16
+}
