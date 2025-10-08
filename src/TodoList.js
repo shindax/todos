@@ -26,6 +26,7 @@ export default function TodoList(props)
                             <td
                                 className="button is-danger"
                                 title="Удалить"
+                                onClick={()=>{props.del(item.key)}}
                             >
                                 &#9746;
                             </td>
