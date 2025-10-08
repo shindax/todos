@@ -1,5 +1,6 @@
 
 import todos from './todos.js'
+import TodoList from './TodoList.js'
 
 export default function App() 
 {
@@ -13,7 +14,7 @@ export default function App()
           </div>
         </nav>
         <main className='content px-6 py-6'>
-          <h1>Todos</h1>
+          <TodoList list={todos}/>
         </main>
     </div>
   );
