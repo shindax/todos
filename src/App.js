@@ -7,7 +7,7 @@ export default function App()
     <div className='container'>
         <nav className='navbar is-light'>
           <div className='navbar-brand'>
-            <span className='navbar-item is-uppercase'>
+            <span className='navbar-item is-uppercase py-6'>
               Todos
             </span>
           </div>
