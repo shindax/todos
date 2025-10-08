@@ -23,12 +23,14 @@ export default function TodoList(props)
                                     &#9745;
                                 </button>
                             </td>
-                            <td
-                                className="button is-danger"
-                                title="Удалить"
-                                onClick={()=>{props.del(item.key)}}
-                            >
+                            <td>
+                                <button
+                                    className="button is-danger"
+                                    title="Удалить"
+                                    onClick={()=>{props.del(item.key)}}
+                                >
                                 &#9746;
+                                </button>
                             </td>
                           </tr>
                         ))}
