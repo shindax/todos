@@ -11,12 +11,14 @@ export default function TodoList(props)
                             <td>
                                 {item.done && <del>{item.title}</del>}
                                 {!item.done && item.title}
+                                
                             </td>
                             <td>
                                 <button 
                                     className="button is-success"
                                     title="Выполнено"
                                     disabled={item.done}
+                                    onClick={()=>{props.setDone(item.key)}}
                                 >
                                     &#9745;
                                 </button>
